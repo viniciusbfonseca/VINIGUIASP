@@ -75,8 +75,9 @@ body {
     color: white;  /* cor da letra */
 }
 
+
 .arrowh {
-    margin-left: 60px;
+    margin-left: 50%; /* ajustar as setas para os cantos */
 }
 
    
@@ -137,6 +138,3 @@ body {
 
 }
 
-.arrow_ponto {
-    margin-right: 10px;
-}
