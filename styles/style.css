@@ -1,65 +1,102 @@
-* {
+
+/* ----------------------------- conteudo geral ------------------- */
+
+
+* {      /* reset css */
     margin: 0;
     padding: 0;
 }
 
+
 body {
-    background-color: #66A450;
-    height: 100vh;
-    box-sizing: border-box;
+    background-color: #66A450;  /* cor de fundo da pagina */
+    height: 100vh;  /* utilizar 100 do viewporthight da pagina */
+    box-sizing: border-box;  /* para que o conteudo fique alinhado dentro de um campo desejado */
 }
 
 
+
+/* ---------------------------- Pagina Bemvindo.html -------------- */
+
 .photo_page {
-    border-radius: 43px;
+    border-radius: 43px;   /* suavizar o canto da borda */
 }
 
 .main_content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 50%;
-    gap: 20px;
+    display: flex;      /* display flex no container pai, para que o conteudo fique em coluna */
+    flex-direction: column;  /* para que o conteudo fica em coluna, de cima para baixo */
+    align-items: center;  /* para alinhar o conteudo ao centro */
+    margin: 40%; /* para que o conteudo fica centralizada na pagina */
+    gap: 20px; /*  o distanciamento entre os conteudos */
     
 }
 
 .title {
-    color: #98f07b;
-    font-size: 64px;
-    width: 300px;
-    text-align: center;
+    color: #98f07b; /* cor do titulo */
+    font-size: 64px; /* tamanho da fonte */
+    width: 300px; /* ajustar o conteudo da pagina */
+    text-align: center;  /* ajustar conteudo ao centro */
        
 }
 
 .sub {
-    color: white;
-    font-size: 24px;
-    width: 440px;
-    height: 69px;
-    text-align: center;
-    
+    color: white;   /* cor da letra */
+    font-size: 24px; /* tamanho da letra */
+    width: 440px;  /* posição do texto Centro - SP */
+    height: 50px; /* posição do texto Centro - SP */
+    text-align: center; /* ajustar conteudo ao centro */   
 }
 
+.seta {
+    margin-left: 288px; /* para deixar a seta no canto */
+}
+
+ /* ------------------------------- Pagina Historia.html -------------- */
+
 .main_content_page1 {
-    display: flex;
+    display: flex; /* display flex no container pai, para que o conteudo fique em coluna */
     flex-direction: column;            
-    gap: 30px;
-    margin: 1em;
-    margin-top: 40%;
-    
+    gap: 30px; /*  o distanciamento entre os conteudos */
+    margin: 45px; /* ajustar o conteudo dentro da pagina */
+    margin-top: 30%;     /* altura entre o conteudo e o cabeçalho */
     
 }
 
 .flag_sp {
-    border-radius: 39px;
+    border-radius: 39px; /* suavizar o canto da borda */
 }
 
 .text {
-    font-size: 14px;
+    font-size: 14px; /* tamanho da letra */
     
 }
 
 .text1 {
-    color: white;
+    color: white;  /* cor da letra */
+}
+
+.arrowh {
+   margin-left: 60px;
+}
+
+   
+    
+
+/* ----------------------------- pagina PontoDicas.html ----------------------- */
+
+
+.header_page2 {
+    color: #DAFC0A; /* cor da letra */
+    font-size: 20px; /* tamanho da letra */
+    font-weight: 900; /* peso da fonte */
+    line-height: 42px; /* 320.833% */    /* ajustar texto dentro da borda */
+    border-radius: 30px; /* suavizar o canto da borda */
+    background-color: #175a22;  /* cor da borda */
+    width: 141px; /* ajustar largura da borda */
+    height: 43px; /* ajustar altura da borda */
+    margin-top: 5%; /* ajustar posicionamento da borda */
+    margin-left: 65%; /* ajustar o texto para o canto direito */
+    text-align: center; /* ajustar conteudo ao centro */
+        
 }
 
