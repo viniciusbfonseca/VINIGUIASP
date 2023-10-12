@@ -143,11 +143,11 @@ body {
 
 .content_tips1 {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center ;
-    margin-top: 20%;
-    gap: 50px;
+    flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
+    align-items: center; /* alinhar conteudo ao centro */
+    text-align: center ; /* alinhar texto ao centro */
+    margin-top: 20%; /* distanciamento entre o conteudo e o cabeçalho */
+    gap: 50px; /* distanciamento dos botões */
 }
 
 
@@ -156,40 +156,47 @@ body {
 
 .content_pagee {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
     align-items: center;
-    gap: 30px;
-    margin: 32%;
+    gap: 30px; /* distanciamento dos botões */
+    margin-top: 25%; /* distanciamento entre o conteudo e o cabeçalho */
+    margin: 35%; /* texto ficar dentro da pagina */
     
     
 }
 
 .masp {
-    border-radius: 41px;
+    border-radius: 41px; /* suavidade da borda */
 }
 
 
 .title_MASP {
-    font-size: 64px;
+    font-size: 64px; /* tamanho da fonte */
     color: #98f07b; /* cor do titulo */
 }
 
 
 .text_MASP1 {
-    font-size: 11px;
+    font-size: 11px; /* tamanho da fonte */
     display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: center;
-    font-weight: 400;
-    color: white;
-    width: 205%;
-    
-    
-    
+    flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
+    gap: 8px; /* distanciamento dos botões */
+    align-items: center; /* ajustar conteudo ao centro */
+    font-weight: 400; /* peso da fonte */
+    color: white; /* cor do texto */
+    width: 290%; /* posicionamento do conteudo texto */
+        
 }
 
 .color {
-    color: black;
+    color: black; /* destaque em texto especifico */
     
+}
+
+
+.title_MERCADAO {
+    font-size: 50px; /* tamanho da fonte */
+    color: #98f07b; /* cor do titulo */
+    text-align: center;
+
 }
