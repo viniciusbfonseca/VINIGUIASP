@@ -149,3 +149,47 @@ body {
     margin-top: 20%;
     gap: 50px;
 }
+
+
+/* ----------------------------- Pagina MASP.html ----------------------------*/
+
+
+.content_pagee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 32%;
+    
+    
+}
+
+.masp {
+    border-radius: 41px;
+}
+
+
+.title_MASP {
+    font-size: 64px;
+    color: #98f07b; /* cor do titulo */
+}
+
+
+.text_MASP1 {
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    font-weight: 400;
+    color: white;
+    width: 205%;
+    
+    
+    
+}
+
+.color {
+    color: black;
+    
+}
