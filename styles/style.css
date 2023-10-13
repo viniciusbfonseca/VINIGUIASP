@@ -211,4 +211,5 @@ body {
     color: red; /* cor do texto do rodapé */
     font-weight: 800; /* peso da fonte */
     text-align: center; /* alinhar texto ao centro */
+    font-size: 30px;
 }
