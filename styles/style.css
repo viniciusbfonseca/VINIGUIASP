@@ -177,7 +177,7 @@ body {
 
 
 .text_MASP1 {
-    font-size: 11px; /* tamanho da fonte */
+    font-size: 15px; /* tamanho da fonte */
     display: flex;
     flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
     gap: 8px; /* distanciamento dos botões */
