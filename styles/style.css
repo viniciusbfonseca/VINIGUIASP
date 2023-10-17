@@ -95,8 +95,8 @@ body {
     line-height: 42px; /* 320.833% */    /* ajustar texto dentro da borda */
     border-radius: 30px; /* suavizar o canto da borda */
     background-color: #175a22;  /* cor da borda */
-    width: 141px; /* ajustar largura da borda */
-    height: 43px; /* ajustar altura da borda */
+    width: 140px; /* ajustar largura da borda */
+    height: 45px; /* ajustar altura da borda */
     margin-top: 4%; /* ajustar posicionamento da borda */
     margin-left: 61%; /* ajustar o texto para o canto direito */
     text-align: center; /* ajustar conteudo ao centro */
