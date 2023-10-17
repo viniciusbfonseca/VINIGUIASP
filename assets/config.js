@@ -4,7 +4,7 @@ function Historia() {
 }
 
 function BemVindo() {
-    window.location.href="BemVindo.html"
+    window.location.href="index.html"
 }
 
 function PontoDicas() {

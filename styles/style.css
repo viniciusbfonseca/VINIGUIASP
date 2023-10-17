@@ -16,7 +16,7 @@ body {
 
 
 
-/* ---------------------------- Pagina Bemvindo.html -------------- */
+/* ---------------------------- Pagina index.html -------------- */
 
 .photo_page {
     border-radius: 43px;   /* suavizar o canto da borda */
@@ -49,6 +49,8 @@ body {
 
 .seta {
     margin-left: 288px; /* para deixar a seta no canto */
+    
+
 }
 
  /* ------------------------------- Pagina Historia.html -------------- */
