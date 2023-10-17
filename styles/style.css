@@ -1,217 +1,186 @@
 
 /* ----------------------------- conteudo geral ------------------- */
 
-
-* {      /* reset css */
-    margin: 0;
-    padding: 0;
+*{   /* reset css */
+margin: 0;
+padding: 0;
 }
 
-
-body {
-    background-color: #66A450;  /* cor de fundo da pagina */
-    height: 100vh;  /* utilizar 100 do viewporthight da pagina */
-    box-sizing: border-box;  /* para que o conteudo fique alinhado dentro de um campo desejado */
+body{
+background-color: #66A450;  /* cor de fundo da pagina */
+height: 100vh;  /* utilizar 100 do viewporthight da pagina */
+box-sizing: border-box;  /* para que o conteudo fique alinhado dentro de um campo desejado */
 }
-
-
 
 /* ---------------------------- Pagina index.html -------------- */
 
-.photo_page {
-    border-radius: 43px;   /* suavizar o canto da borda */
+.photo_page{
+border-radius: 43px;   /* suavizar o canto da borda */
 }
 
-.main_content {
-    display: flex;      /* display flex no container pai, para que o conteudo fique em coluna */
-    flex-direction: column;  /* para que o conteudo fica em coluna, de cima para baixo */
-    align-items: center;  /* para alinhar o conteudo ao centro */
-    margin: 40%; /* para que o conteudo fica centralizada na pagina */
-    gap: 20px; /*  o distanciamento entre os conteudos */
-    
+.main_content{
+display: flex;      /* display flex no container pai, para que o conteudo fique em coluna */
+flex-direction: column;  /* para que o conteudo fica em coluna, de cima para baixo */
+align-items: center;  /* para alinhar o conteudo ao centro */
+margin: 40%; /* para que o conteudo fica centralizada na pagina */
+gap: 20px; /*  o distanciamento entre os conteudos */
 }
 
-.title {
-    color: #98f07b; /* cor do titulo */
-    font-size: 64px; /* tamanho da fonte */
-    width: 300px; /* ajustar o conteudo da pagina */
-    text-align: center;  /* ajustar conteudo ao centro */
-       
+.title{
+color: #98f07b; /* cor do titulo */
+font-size: 64px; /* tamanho da fonte */
+width: 300px; /* ajustar o conteudo da pagina */
+text-align: center;  /* ajustar conteudo ao centro */
 }
 
-.sub {
-    color: white;   /* cor da letra */
-    font-size: 24px; /* tamanho da letra */
-    width: 440px;  /* posição do texto Centro - SP */
-    height: 50px; /* posição do texto Centro - SP */
-    text-align: center; /* ajustar conteudo ao centro */   
+.sub{
+color: white;   /* cor da letra */
+font-size: 24px; /* tamanho da letra */
+width: 440px;  /* posição do texto Centro - SP */
+height: 50px; /* posição do texto Centro - SP */
+text-align: center; /* ajustar conteudo ao centro */   
 }
 
-.seta {
-    margin-left: 288px; /* para deixar a seta no canto */
-    
-
+.seta{
+margin-left: 288px; /* para deixar a seta no canto */
 }
 
- /* ------------------------------- Pagina Historia.html -------------- */
+/* ------------------------------- Pagina Historia.html -------------- */
 
-.main_content_page1 {
-    display: flex; /* display flex no container pai, para que o conteudo fique em coluna */
-    flex-direction: column;            
-    gap: 30px; /*  o distanciamento entre os conteudos */
-    margin: 45px; /* ajustar o conteudo dentro da pagina */
-    margin-top: 30%;     /* altura entre o conteudo e o cabeçalho */
-    
+.main_content_page1{
+display: flex; /* display flex no container pai, para que o conteudo fique em coluna */
+flex-direction: column;            
+gap: 30px; /*  o distanciamento entre os conteudos */
+margin: 45px; /* ajustar o conteudo dentro da pagina */
+margin-top: 30%;     /* altura entre o conteudo e o cabeçalho */
 }
 
-.flag_sp {
-    border-radius: 39px; /* suavizar o canto da borda */
+.flag_sp{
+border-radius: 39px; /* suavizar o canto da borda */
 }
 
-.text {
-    font-size: 14px; /* tamanho da letra */
-    
+.text{
+font-size: 14px; /* tamanho da letra */
+}
+.text1{
+color: white;  /* cor da letra */
 }
 
-.text1 {
-    color: white;  /* cor da letra */
+.arrowh{
+margin-left: 50%; /* ajustar as setas para os cantos */
 }
-
-
-.arrowh {
-    margin-left: 50%; /* ajustar as setas para os cantos */
-}
-
-   
-    
 
 /* ----------------------------- pagina PontoDicas.html ----------------------- */
 
-
-.header_page2 {
-    color: #DAFC0A; /* cor da letra */
-    font-size: 20px; /* tamanho da letra */
-    font-weight: 900; /* peso da fonte */
-    line-height: 42px; /* 320.833% */    /* ajustar texto dentro da borda */
-    border-radius: 30px; /* suavizar o canto da borda */
-    background-color: #175a22;  /* cor da borda */
-    width: 140px; /* ajustar largura da borda */
-    height: 45px; /* ajustar altura da borda */
-    margin-top: 4%; /* ajustar posicionamento da borda */
-    margin-left: 61%; /* ajustar o texto para o canto direito */
-    text-align: center; /* ajustar conteudo ao centro */
-        
+.header_page2{
+color: #DAFC0A; /* cor da letra */
+font-size: 20px; /* tamanho da letra */
+font-weight: 900; /* peso da fonte */
+line-height: 42px; /* 320.833% */    /* ajustar texto dentro da borda */
+border-radius: 30px; /* suavizar o canto da borda */
+background-color: #175a22;  /* cor da borda */
+width: 140px; /* ajustar largura da borda */
+height: 45px; /* ajustar altura da borda */
+margin-top: 4%; /* ajustar posicionamento da borda */
+margin-left: 61%; /* ajustar o texto para o canto direito */
+text-align: center; /* ajustar conteudo ao centro */
 }
 
-
-.content_tips {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center ;
+.content_tips{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center ;
 }
 
-.title_ponto {
-    color: #98f07b; /* cor do titulo */
-    font-size: 64px; /* tamanho da letra */
+.title_ponto{
+color: #98f07b; /* cor do titulo */
+font-size: 64px; /* tamanho da letra */
 }
 
-
-.apresentacao__links {
-    display: flex;
-    flex-direction: column; /* ajuste em coluna */
-    align-items: center; /* alinhar ao centro */
-    gap: 20px; /* distanciamento dos botões */
-
+.apresentacao__links{
+display: flex;
+flex-direction: column; /* ajuste em coluna */
+align-items: center; /* alinhar ao centro */
+gap: 20px; /* distanciamento dos botões */
 }
 
 .apresentacao__links__navegacao {
-    display: flex;
-    justify-content: center;
-    width: 160%; /* comprimento do botão */
-    text-align: center; /* alinhar ao centro */
-    border-radius: 40px;  /* suavizar o canto da borda */
-    font-size: 20px; /* tamanho da fonte */
-    font-weight: 400; /* peso da fonte */
-    padding: 10px 0; /* altura das bordas na tela */
-    text-decoration: none; /* tirar sublinhado do texto */
-    background: #D9D9D9; /* cor de fundo da borda */
-
-
+display: flex;
+justify-content: center;
+width: 160%; /* comprimento do botão */
+text-align: center; /* alinhar ao centro */
+border-radius: 40px;  /* suavizar o canto da borda */
+font-size: 20px; /* tamanho da fonte */
+font-weight: 400; /* peso da fonte */
+padding: 10px 0; /* altura das bordas na tela */
+text-decoration: none; /* tirar sublinhado do texto */
+background: #D9D9D9; /* cor de fundo da borda */
 }
 
+.rodape-ponto-dicas{
+    margin: 9%;
+}
 
 /* -------------------------------- Pagina Favoritos.html ----------------------- */
 
-.content_tips1 {
-    display: flex;
-    flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
-    align-items: center; /* alinhar conteudo ao centro */
-    text-align: center ; /* alinhar texto ao centro */
-    margin-top: 20%; /* distanciamento entre o conteudo e o cabeçalho */
-    gap: 50px; /* distanciamento dos botões */
+.content_tips1{
+display: flex;
+flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
+align-items: center; /* alinhar conteudo ao centro */
+text-align: center ; /* alinhar texto ao centro */
+margin-top: 20%; /* distanciamento entre o conteudo e o cabeçalho */
+gap: 50px; /* distanciamento dos botões */
 }
-
 
 /* ----------------------------- Pagina MASP.html ----------------------------*/
 
-
-.content_pagee {
-    display: flex;
-    flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
-    align-items: center;
-    gap: 30px; /* distanciamento dos botões */
-    margin-top: 25%; /* distanciamento entre o conteudo e o cabeçalho */
-    margin: 35%; /* texto ficar dentro da pagina */
-    
-    
+.content_pagee{
+display: flex;
+flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
+align-items: center;
+gap: 30px; /* distanciamento dos botões */
+margin-top: 25%; /* distanciamento entre o conteudo e o cabeçalho */
+margin: 35%; /* texto ficar dentro da pagina */
 }
 
-.masp {
-    border-radius: 41px; /* suavidade da borda */
+.masp{
+border-radius: 41px; /* suavidade da borda */
 }
 
-
-.title_MASP {
-    font-size: 64px; /* tamanho da fonte */
-    color: #98f07b; /* cor do titulo */
+.title_MASP{
+font-size: 64px; /* tamanho da fonte */
+color: #98f07b; /* cor do titulo */
 }
 
-
-.text_MASP1 {
-    font-size: 15px; /* tamanho da fonte */
-    display: flex;
-    flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
-    gap: 8px; /* distanciamento dos botões */
-    align-items: center; /* ajustar conteudo ao centro */
-    font-weight: 400; /* peso da fonte */
-    color: white; /* cor do texto */
-    width: 290%; /* posicionamento do conteudo texto */
-        
+.text_MASP1{
+font-size: 15px; /* tamanho da fonte */
+display: flex;
+flex-direction: column; /* para que o conteudo fica em coluna, de cima para baixo */
+gap: 8px; /* distanciamento dos botões */
+align-items: center; /* ajustar conteudo ao centro */
+font-weight: 400; /* peso da fonte */
+color: white; /* cor do texto */
+width: 290%; /* posicionamento do conteudo texto */
 }
-
-.color {
-    color: black; /* destaque em texto especifico */
-    
+.color{
+color: black; /* destaque em texto especifico */
 }
-
 
 /* ----------------------------- Pagina MERCADAO.html ----------------------------*/
 
-.title_MERCADAO {
-    font-size: 50px; /* tamanho da fonte */
-    color: #98f07b; /* cor do titulo */
-    text-align: center;
-    
+.title_MERCADAO{
+font-size: 50px; /* tamanho da fonte */
+color: #98f07b; /* cor do titulo */
+text-align: center;
 }
-
-
 
 /* ----------------------------- Pagina agradecimento.html ----------------------------*/
 
-.text_footer {
-    color: red; /* cor do texto do rodapé */
-    font-weight: 800; /* peso da fonte */
-    text-align: center; /* alinhar texto ao centro */
-    font-size: 30px;
+.text_footer{
+color: red; /* cor do texto do rodapé */
+font-weight: 800; /* peso da fonte */
+text-align: center; /* alinhar texto ao centro */
+font-size: 30px;
 }
+
