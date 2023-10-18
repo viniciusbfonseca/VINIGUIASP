@@ -4,22 +4,33 @@ const content = [
      title: "VINIGUIA",
      image: "./assets/images/sp.jpeg",
      description: "Arial",
+     address: "",
+     operation: "",
+     font: "",
      },
      {
      title: "HISTORIA",
      image: "./assets/images/flagsp.png",
      description: "Arial",
+     address: "",
+     operation: "",
      font: "saopaulo.sp.gov.br",
      },
      {
      title: "DICAS PONTOS",
      image: "./assets/images/light.png",
      description: "Arial",
+     address: "",
+     operation: "",
+     font: "",
      },
      {
      title: "OBRIGADO POR UTILIZAR",
      image: "./assets/images/logo.png",
      description: "Arial",
+     address: "",
+     operation: "",
+     font: "",
      },
      {
      title: "MASP",
@@ -34,6 +45,7 @@ const content = [
      image: "./assets/images/liberdade.jpeg",
      description: "Arial",
      address: "R. Galvão Bueno",
+     operation: "",
      font: "casavogue.globo.com",
      },   
      {
@@ -49,6 +61,7 @@ const content = [
      image: "./assets/images/estacao.jpeg",
      description: "Arial",
      address: "Praça da Luz,1 São Paulo",
+     operation:"",
      font: "wikipédia",
      },  
      {
@@ -71,6 +84,9 @@ const content = [
      title: "FAVORITOS",
      image: "./assets/images/favorites.png",
      description: "Arial",
+     address: "",
+     operation:"",
+     font: "",
      },         
      
 ];
