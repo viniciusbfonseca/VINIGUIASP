@@ -104,4 +104,7 @@ const content = [
     },
 ];
 
+function getContent (id){
+    return content.find((item) => item.id == id)
+}
 
