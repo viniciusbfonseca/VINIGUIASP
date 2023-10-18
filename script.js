@@ -5,7 +5,7 @@ function navigate(pushPath) {
 const content = [
     {
         id: "0",
-        title: "BEM-VINDO",
+        title: "BEM VINDO AO SEU GUIA DE PASSEIO",
         image: "./assets/images/sp.jpeg",
         description: "Centro - São Paulo",
         address: "",
@@ -102,5 +102,6 @@ const content = [
         operation: "",
         font: "",
     },
-
 ];
+
+
