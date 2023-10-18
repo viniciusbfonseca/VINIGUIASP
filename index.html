@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>VINIGUIA</title>
-<link href="style.css" rel="stylesheet"/>
-<script src="script.js"></script>
-</head>
-<body>
-<header></header>
-<main class="main_content">
-   
-        
-<h1 class="title"> 
-    <script>
-    document.write(getContent("0").title);
-    </script>
-</h1>
 
-<p class="sub">
-    <script>
-        document.write(getContent("0").description);
-    </script>
-</p>  
-<script>
-    document.write(`
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VINIGUIA</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <header></header>
+    <main class="main_content">
+        <h1 class="title">
+            <script>
+                document.write(getContent("0").title);
+            </script>
+        </h1>
+        <p class="sub">
+            <script>
+                document.write(getContent("0").description);
+            </script>
+        </p>
+        <script>
+            document.write(`
     <img  class="photo_page"
     src="${getContent("0").image}""
     alt="centrosp" width="320px 
     height="219px"
     />
     `);
-</script>
-</main>
-<footer class="seta"><img  class="arrow_page1"src="/assets/images/arrow-right-icon.png" width="50px" height="50px" onclick="navigate('historia.html')"/>
-</footer>
+        </script>
+    </main>
+    <footer class="seta"><img class="arrow_page1" src="/assets/images/arrow-right-icon.png" width="50px" height="50px"
+            onclick="navigate('historia.html')" />
+    </footer>
 </body>
+
 </html>
