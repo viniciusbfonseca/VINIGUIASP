@@ -5,7 +5,7 @@ function navigate(pushPath) {
 const content = [
     {
         id: "1",
-        title: "VINIGUIA",
+        title: "BEM-VINDO",
         image: "./assets/images/sp.jpeg",
         description: "Arial",
         address: "",
