@@ -12,8 +12,16 @@
 <body>
     <header></header>
     <main class="content_tips1">
-        <img src="/assets/images/Favorites.png" width="150px" height="150pxx" />
-        <h1 class="title_ponto">FAVORITOS</h1>
+        <script>
+            document.write(`
+        <img src="${(getContent("10").image)}" width="150px" height="150pxx" />
+        `);
+    </script>
+        <h1 class="title_ponto">
+            <script>
+                document.write(getContent("10").title);
+            </script>
+        </h1>
         <div class="apresentacao__links">
             <a class="apresentacao__links__navegacao" onclick="navigate('masp.html')">
                 MASP

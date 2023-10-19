@@ -17,21 +17,31 @@
                 document.write(getContent("6").title)
             </script>
         </h1>
-        <img class="masp" src="/assets/images/mercadao.png" width="360px" height="200px" />
+        <script>
+            document.write(`
+        <img class="masp" src="${(getContent("6").image)}" width="360px" height="200px" />
+        `);
+        </script>
         <div class="text_MASP1">
-            <h2>O popularmente conhecido como Mercadão de SP, é uma parada obrigatória para turistas de todo o mundo.
-                Por lá,
-                você encontra verduras, legumes, frutas fresquinhas, carnes, aves, peixes e frutos do mar, massas,
-                doces,
-                especiarias, além de produtos importados de primeira linha. Projetado pelo escritório do arquiteto
-                Francisco Ramos de Azevedo em 1926, o Mercadão de SP foi inaugurado em 25 de janeiro de 1933. Ele segue
-                o modelo
-                utilizado pelo Mercado Central de Berlim, um prédio coberto e dotado de torreões laterais – que são
-                estruturas
-                conhecidas como pêndulos – bastante imponente e marcante.</h2>
-            <h3><strong class="color">Endereço:</strong> R. da Cantareira, 306 Centro histórico de São Paulo, horário de
-                funcionamento: Seg a Sáb das 06:00-18:00 e Dom das 06:00-16:00.</h3>
-            <h4><strong class="color">Fonte:</strong> meulugar.quintoandar</h4>
+            <h2>
+                <script>
+                    document.write(getContent("6").description);
+                </script>
+            </h2>
+            <h3>
+                <script>
+                    document.write(`
+                <strong class="color">Endereço:</strong>${(getContent("6").address)}
+                `);
+                </script>
+            </h3>
+            <h4>
+                <script>
+                    document.write(`
+                <strong class="color">Fonte: </strong>${(getContent("6").font)}
+                `)
+                </script>
+            </h4>
         </div>
     </main>
     <footer><img src="/assets/images/arrow-left-icon.png" width="50px" height="50px"

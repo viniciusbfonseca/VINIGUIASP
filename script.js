@@ -85,7 +85,7 @@ const content = [
         font: "wikipédia",
     },
     {
-        id: "09",
+        id: "9",
         title: "GALERIA DO ROCK",
         image: "./assets/images/galeria.jpg",
         description: "A Galeria do Rock, oficialmente Centro Comercial Grandes Galerias, é um centro comercial localizado na cidade de São Paulo. Foi construída em 1962 e inaugurada em 1963 no número 439 da Avenida São João, no centro da capital de São Paulo, entre as ruas 24 de Maio e o Largo Paysandu.",
