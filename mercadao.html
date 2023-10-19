@@ -12,7 +12,11 @@
 <body>
     <header class="header_page2" onclick="navigate('favoritos.html')">FAVORITAR</header>
     <main class="content_pagee">
-        <h1 class="title_MERCADAO">MERCADÃO DE SP</h1>
+        <h1 class="title_MERCADAO">
+            <script>
+                document.write(getContent("6").title)
+            </script>
+        </h1>
         <img class="masp" src="/assets/images/mercadao.png" width="360px" height="200px" />
         <div class="text_MASP1">
             <h2>O popularmente conhecido como Mercadão de SP, é uma parada obrigatória para turistas de todo o mundo.
