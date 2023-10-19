@@ -12,24 +12,38 @@
 <body>
     <header class="header_page2" onclick="navigate('favoritos.html')">FAVORITAR</header>
     <main class="content_pagee">
-        <h1 class="title_MASP">MASP</h1>
-        <img class="masp" src="/assets/images/MASP.jpeg" width="360px" height="200px" />
+        <h1 class="title_MASP">
+            <script>
+                document.write(getContent("4").title);
+            </script>
+        </h1>
+        <script>
+            document.write(`
+        <img class="masp" src="${(getContent("4").image)}" width="360px" height="200px" />
+        `);
+    </script>
         <div class="text_MASP1">
-            <h2>Um ícone na cidade de São Paulo, o MASP - Museu de Arte de São Paulo, foi idelizado pelo jornalista
-                e empresario Paraibano Assis Chateadubriand e pelo crítico de arte italiano Pietro Maria Bardi.
-                Segundo historiadores, Assis Chateadubrfiand, na época dono do maior congloremado de mídia do país, Os
-                diários
-                Associados, diante do crescimento urbano em substituiçãodo clico do café, após a crise econômica de
-                1929, decidiu
-                que era a hora do Brasil ter um museu de nível Internacional. porém, por não entender de arte, chamou
-                Pietro Bardi, que
-                estava em visita ao Brasil com a esposa, a arquiteta Lina do Bardi, para fazer as aquisições para futura
-                instituição
+
+            <h2>
+                <script>
+                    document.write(getContent("4").description)
+               
+            </script>
             </h2>
-            <h3><strong class="color">Endereço:</strong> Av. Paulista 1578 - Bela Vista, São Paulo Horário de
-                funcionamento: Seg a
-                Ter das 10:00-20:00 e Qua a Dom das 10:00-18:00</h3>
-            <h4><strong class="color">Fonte:</strong> gazetasp.com.br </h4>
+            <h3>
+                <script>
+                    document.write(`
+                <strong class="color">Endereço:</strong>${(getContent("4").address)}
+                `);
+            </script>
+            </h3>
+            <h4>
+                <script>
+                document.write(`
+                <strong class="color">Fonte: </strong>${(getContent("4").font)}
+                `); 
+                </script>
+                </h4>
         </div>
     </main>
     <footer><img src="/assets/images/arrow-left-icon.png" width="50px" height="50px"

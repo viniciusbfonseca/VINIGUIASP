@@ -42,7 +42,7 @@ const content = [
     {
         id: "4",
         title: "MASP",
-        image: "./assets/images/MASP.png",
+        image: "./assets/images/MASP.jpeg",
         description: "Um ícone na cidade de São Paulo, o MASP - Museu de Arte de São Paulo, foi idelizado pelo jornalista e empresario Paraibano Assis Chateadubriand e pelo crítico de arte italiano Pietro Maria Bardi. Segundo historiadores, Assis Chateadubrfiand, na época dono do maior congloremado de mídia do país, Os diários Associados, diante do crescimento urbano em substituiçãodo clico do café, após a crise econômica de 1929, decidiu que era a hora do Brasil ter um museu de nível Internacional. porém, por não entender de arte, chamou Pietro Bardi, que estava em visita ao Brasil com a esposa, a arquiteta Lina do Bardi, para fazer as aquisições para futura instituição",
         address: "Av. Paulista 1578 - Bela Vista, São Paulo",
         operation: "Horário de funcionamento: Seg a Ter das 10:00-20:00 e Qua a Dom das 10:00-18:00",

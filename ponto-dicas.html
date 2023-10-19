@@ -13,9 +13,17 @@
 
         <header class="header_page2" onclick="navigate('favoritos.html')">FAVORITOS</header>
         <main class="content_tips">
-                <img src="/assets/images/light.png" width="245px" height="216px" />
+                <script>
+                        document.write(`
+                <img src="${(getContent("2").image)}" width="245px" height="216px" />
+                `);
+                </script>
 
-                <h1 class="title_ponto">DICAS PONTOS</h1>
+                <h1 class="title_ponto">
+                        <script>
+                                document.write(getContent("2").title);
+                        </script>
+                </h1>
 
                 <div class="apresentacao__links">
                         <a class="apresentacao__links__navegacao" onclick="navigate('masp.html')">
